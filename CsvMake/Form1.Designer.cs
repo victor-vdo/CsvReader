@@ -42,7 +42,7 @@ namespace CsvMake
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Buscar";
+            this.button1.Text = "Search";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -51,10 +51,9 @@ namespace CsvMake
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 15);
+            this.label1.Size = new System.Drawing.Size(93, 15);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Buscar o arquivo CSV";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Text = "Find the CSV file";
             // 
             // openFileDialog1
             // 
@@ -78,7 +77,7 @@ namespace CsvMake
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "GeradorCSV";
+            this.Text = "CSV Reader";
             ((System.ComponentModel.ISupportInitialize)(this.dgvCsv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
